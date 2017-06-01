@@ -38,12 +38,12 @@ ensure_vala_version("0.16" MINIMUM)
 
 # files we want to compile 
 include(ValaPrecompile)
-vala_precompile(VALA_C {EXEC_NAME}
+vala_precompile(VALA_C ${EXEC_NAME}
     src/hello-again.vala
 
 # tell what libraries to use when compiling 
 PACKAGES
-    gtk+=3.0 
+    gtk+-3.0 
 )
 
 # tell cmake what to call the exectuable we just made
