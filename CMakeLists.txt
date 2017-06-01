@@ -47,7 +47,7 @@ PACKAGES
 )
 
 # tell cmake what to call the exectuable we just made
-add_exectuable(${EXEC_NAME} ${VALA_C})
+add_executable(${EXEC_NAME} ${VALA_C})
 
 # install the binaries we just made 
 install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
