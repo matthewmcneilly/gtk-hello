@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Matthew McNeilly <matthewmcneilly182@gmail.com> -->
+<component type="desktop">
+    <id>com.github.mattymcneilly.gtk-hello.desktop</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Gtk-Hello</name>
+    <summary>A Catchy Tagline</summary>
+    <description>
+        <p>A quick summary of your app's main selling points and features. Just a couple of sentences per paragraph is best.</p>
+    </description>
+</component>
