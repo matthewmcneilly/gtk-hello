@@ -10,11 +10,13 @@ A learning project for getting up to scratch with Gtk, Vala and ElementaryOS's a
 ## Installation
 
 `valac --pkg gtk+-3.0 gtk-hello.vala`
+
 `./gtk-hello`
 
 ## API Reference
 
 [ElementaryOS](https://elementary.io/docs/code/getting-started#getting-started)
+
 [Vala](https://wiki.gnome.org/Projects/Vala)
 
 ## License
