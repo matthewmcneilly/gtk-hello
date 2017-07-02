@@ -1,5 +1,5 @@
 
-## Synopsis
+## Introduction
 
 A simple hello world app...the first of many. 
 
