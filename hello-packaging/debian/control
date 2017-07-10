@@ -1,0 +1,14 @@
+Source: hello-packaging
+Section: x11
+Priority: extra
+Maintainer: Matthew McNeilly <matthewmcneilly182@gmail.com>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 8.0.0),
+               valac-0.26 | valac (>= 0.26)
+Standards-Version: 3.9.3
+
+Package: hello-packaging
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hey young world
+ This is a Hello World written in Vala using CMake build system.

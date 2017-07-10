@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-01 17:37+0100\n"
+"POT-Creation-Date: 2017-07-10 14:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/hello-again.vala:25 ../src/gtk-hello.vala:8 ../src/gtk-hello.vala:22
+#: ../src/hello-again.vala:25 ../src/gtk-hello.vala:12 ../src/gtk-hello.vala:26
 msgid "Hello World!"
 msgstr ""
