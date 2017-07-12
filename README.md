@@ -19,6 +19,8 @@ A learning project for getting up to scratch with Gtk, Vala and ElementaryOS's a
 
 [Vala](https://wiki.gnome.org/Projects/Vala)
 
+[Valadoc](https://valadoc.org)
+
 ## License
 
 This project is under the GLPv3 license. We welcome any and all contributions. Fork away.
