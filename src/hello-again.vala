@@ -19,6 +19,8 @@
 * Authored by: Author <matthewmcneilly182@gmail.com>
 */
 
+const string GETTEXT_PACKAGE = "...";
+
 int main (string[] args) {
     Gtk.init (ref args);
     var window = new Gtk.Window ();
@@ -28,7 +30,7 @@ int main (string[] args) {
     window.set_default_size (350, 70);
     window.destroy.connect (Gtk.main_quit);
 
-    var label = new Gtk.Label _(("Hello Again World!"));
+    var label = new Gtk.Label ("Hello Again World!");
 
     window.add (label);
     window.show_all ();

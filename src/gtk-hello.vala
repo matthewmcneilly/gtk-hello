@@ -4,6 +4,10 @@ a .pot template file and a file for each language where you place
 the translatable string
 */
 
+// However cant get _() to work without erroring, need to revisit this
+
+const string GETTEXT_PACKAGE = "...";
+
 int main (string[] args) {
     Gtk.init (ref args);
     // Create new window with name of window
@@ -20,10 +24,10 @@ int main (string[] args) {
     window.destroy.connect (Gtk.main_quit);
 
     // Create Gtk button with label of Click me!
-    var button_hello = new Gtk.Button.with_label _(("Click me!"));
+    var button_hello = new Gtk.Button.with_label ("Click me!");
     // If button clicked change label to say Hello World!
     button_hello.clicked.connect (() => {
-        button_hello.label = _("Hello World!");
+        button_hello.label = "Hello World!";
         // Make button insensitive as clicking the button again has no visible effect
         // Makes the button inactive after the first click
         button_hello.set_sensitive (false);
