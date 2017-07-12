@@ -10,9 +10,13 @@ A learning project for getting up to scratch with Gtk, Vala and ElementaryOS's a
 ## Installation
 
 `valac --pkg gtk+-3.0 gtk-hello.vala`
+
 not working, error? 
+
 try `valac --pkg gtk+-3.0 filename.vala`
+
 then 
+
 `./gtk-hello`
 
 ## API Reference
